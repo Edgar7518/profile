@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+    background-color: #edf2f4;
+    color: #1d3557;
+    font-family: 'Open Sans', serif;
+    font-size: 17px;
+    line-height:1.8 ;
+}
+
+h1, h2, h3 {
+    color: #411d57;
+    font-family: 'Open Sans', serif;
+    font-size: 18px;
+    line-height:1.8 ;
+}
+
+a {
+    color: #c91613;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+ 
+.btn-blue {
+    text-align: center;
+    background-color: #6B72E1;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+a:hover {
+    background-color: blueviolet;
+    text-decoration: underline;
+    cursor: pointer
+  }
+
+ .container {
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    } 
+
+ .card {
+    background: white;
+    padding: 30px;
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+    box-shadow: 8px 8px 5px rgb(0, 0, 0, 0.1);
+ }
+
+ .list-inline > li {
+    list-style: none;
+    padding-left: 0px;
+    display: inline-block;
+    margin-block-start: 2em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 10px;
+    padding-inline-start: 40px;
+ }
+
+ .img-circle {
+    border-radius: 50%;
+  }
+
+  @media (max-width: 960px) {
+    
+    .container {
+      width: 700px;
+    }
+  }
+  
+  @media (max-width: 720px) {
+   
+    .container {
+      width: 500px;
+    }
+  }
+  
+  @media (max-width: 540px) {
+   
+    .container {
+      width: 300px;
+    }
+  }
